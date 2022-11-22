@@ -104,7 +104,7 @@ create table bill(
 create table period( 
 	id int identity PRIMARY KEY,
 	period int,
-	started_at datetime,
+	started_at time,
 );
 create table schedule( 
 	id int identity PRIMARY KEY,
@@ -249,16 +249,16 @@ INSERT INTO bill (price, is_paid, pay_start_time, pay_end_time, contract_id) VAL
 INSERT INTO bill (price, is_paid, pay_start_time, pay_end_time, contract_id) VALUES ('10000000', 0, '2022-08-16 19:20:49', '2022-08-23 19:20:49', 9);
 INSERT INTO bill (price, is_paid, pay_start_time, pay_end_time, contract_id) VALUES ('1300000', 0, '2022-08-16 19:20:49', '2022-08-23 19:20:49', 10);
 
-INSERT INTO period (period, started_at) VALUES (1, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (2, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (3, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (4, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (5, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (6, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (7, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (8, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (9, '21:00:00');
-INSERT INTO period (period, started_at) VALUES (10, '21:00:00');
+INSERT INTO period (period, started_at) VALUES (1, '06:00:00');
+INSERT INTO period (period, started_at) VALUES (2, '07:30:00');
+INSERT INTO period (period, started_at) VALUES (3, '08:30:00');
+INSERT INTO period (period, started_at) VALUES (4, '10:00:00');
+INSERT INTO period (period, started_at) VALUES (5, '12:00:00');
+INSERT INTO period (period, started_at) VALUES (6, '13:30:00');
+INSERT INTO period (period, started_at) VALUES (7, '15:00:00');
+INSERT INTO period (period, started_at) VALUES (8, '16:30:00');
+INSERT INTO period (period, started_at) VALUES (9, '18:00:00');
+INSERT INTO period (period, started_at) VALUES (10, '19:30:00');
 INSERT INTO period (period, started_at) VALUES (11, '21:00:00');
 
 INSERT INTO schedule (date, period_id) VALUES ('2022-08-15', 1);

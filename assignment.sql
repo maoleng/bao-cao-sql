@@ -57,7 +57,7 @@ create table files(
 create table room_detail( 
 	id int identity PRIMARY KEY,
 	max int,
-	description text,
+	description nvarchar(250),
 	price_per_month float,
 );
 create table building( 

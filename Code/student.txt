@@ -1,0 +1,11 @@
+id,__name,__student_card_id,__password,__role,_information_id
+1,Raymond Yost I,A17H8492,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,1
+2,Frederique Robel,217H3000,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,2
+3,Gerry Morissette,A2008558,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,3
+4,Bella Bosco IV,62203974,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,4
+5,Mabelle Cummerata,91702838,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,5
+6,Caroline Brekke,120H2478,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,6
+7,Shanny Smitham,42101964,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,7
+8,Dudley Carroll,C16H8053,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,8
+9,Geoffrey Medhurst,016H1831,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,9
+10,Rashad Rau III,C21F5721,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,10

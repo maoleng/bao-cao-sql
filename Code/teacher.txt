@@ -1,0 +1,11 @@
+id,__name,__teacher_card_id,__password,__role,_information_id
+1,Norma Koepp,732T4925,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,11
+2,Eliane Moore,732T0005,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,12
+3,Prof. Samir Lakin,732T5585,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,13
+4,Art Schuster PhD,732T9745,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,14
+5,Sabryna Schowalter,732T8385,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,15
+6,Lucie Schmidt V,732T4785,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,16
+7,Dr. Giuseppe Armstrong,732T9645,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,17
+8,Marilie Ondricka,732T0535,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,18
+9,Dr. Simone Lynch,732T8315,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,19
+10,Mr. Enid Kohler,732T7215,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,1,20

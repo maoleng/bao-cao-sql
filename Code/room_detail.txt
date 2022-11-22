@@ -1,0 +1,6 @@
+id,__max,__description,__price_per_month
+1,8,Phòng 8 người,250000
+2,6,Phòng 6 người,650000
+3,4,Phòng 4 người,3000000
+4,2,Phòng 2 người,5000000
+5,1,Phòng 1 người,8000000

@@ -209,11 +209,11 @@ INSERT INTO floor (name, building_id) VALUES ('1', 4);
 INSERT INTO floor (name, building_id) VALUES ('2', 4);
 INSERT INTO floor (name, building_id) VALUES ('3', 4);
 
-INSERT INTO room_detail (max, price_per_month, description) VALUES (8, '250000', 'Phòng 8 người');
-INSERT INTO room_detail (max, price_per_month, description) VALUES (6, '650000', 'Phòng 6 người');
-INSERT INTO room_detail (max, price_per_month, description) VALUES (4, '3000000', 'Phòng 4 người');
-INSERT INTO room_detail (max, price_per_month, description) VALUES (2, '5000000', 'Phòng 2 người');
-INSERT INTO room_detail (max, price_per_month, description) VALUES (1, '8000000', 'Phòng 1 người');
+INSERT INTO room_detail (max, price_per_month, description) VALUES (8, '250000', N'Phòng 8 người');
+INSERT INTO room_detail (max, price_per_month, description) VALUES (6, '650000', N'Phòng 6 người');
+INSERT INTO room_detail (max, price_per_month, description) VALUES (4, '3000000', N'Phòng 4 người');
+INSERT INTO room_detail (max, price_per_month, description) VALUES (2, '5000000', N'Phòng 2 người');
+INSERT INTO room_detail (max, price_per_month, description) VALUES (1, '8000000', N'Phòng 1 người');
 
 INSERT INTO room (name, room_detail_id, amount, status, floor_id) VALUES ('H0101', 1, 1, 1, 1);
 INSERT INTO room (name, room_detail_id, amount, status, floor_id) VALUES ('H0102', 3, 1, 0, 1);

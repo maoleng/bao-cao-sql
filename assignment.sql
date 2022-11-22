@@ -179,16 +179,16 @@ INSERT INTO form (title, content, student_id, teacher_id, parent_id, created_at)
 
 
 
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/567/640/480', 29553, 1);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/56/640/480', 16850, 1);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/215/640/480', 19723, 2);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/640/640/480', 44322, 2);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/309/640/480', 96721, 3);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/102/640/480', 35690, 6);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/92/640/480', 78030, 7);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/421/640/480', 17895, 8);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/544/640/480', 78480, 8);
-INSERT INTO files (source, size, form_id) VALUES ('https://picsum.photos/id/576/640/480', 54720, 9);
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/567/640/480', 29553, 1, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/56/640/480', 16850, 1, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/215/640/480', 19723, 2, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/640/640/480', 44322, 2, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/309/640/480', 96721, 3, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/102/640/480', 35690, 6, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/92/640/480', 78030, 7, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/421/640/480', 17895, 8, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/544/640/480', 78480, 8, '2022-08-16 14:21:05');
+INSERT INTO files (source, size, form_id, created_at) VALUES ('https://picsum.photos/id/576/640/480', 54720, 9, '2022-08-16 14:21:05');
 
 INSERT INTO building (name) VALUES ('H');
 INSERT INTO building (name) VALUES ('I');

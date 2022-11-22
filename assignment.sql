@@ -108,7 +108,7 @@ create table period(
 );
 create table schedule( 
 	id int identity PRIMARY KEY,
-	date datetime,
+	date date,
 	period_id int not null,
 	foreign key (period_id) references period(id),
 );

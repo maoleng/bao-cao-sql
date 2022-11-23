@@ -7,7 +7,7 @@
 <?php
 require 'AutoLoad.php';
 const CONDITIONALS = [
-    'id' => '1',
+    'student_card_id' => 'A17H8492',
 ];
 
 if (! empty($_FILES)) {

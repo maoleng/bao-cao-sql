@@ -8,10 +8,8 @@
 require 'AutoLoad.php';
 
 const CONDITIONALS = [
-	'id' => null,
-	'area' => 'bbfd',
-	'birthday' => 'bbfd',
-	'phone' => 'bbfd',
+	'name' => null,
+	'student_card_id' => null,
 ];
 
 if (! empty($_FILES)) {

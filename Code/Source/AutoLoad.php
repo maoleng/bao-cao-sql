@@ -39,4 +39,7 @@ if (! function_exists('positionOfCondition')) {
     }
 }
 
-
+function getValueOfCondition($key)
+{
+    return array_values(CONDITIONALS)[$key] ?? null;
+}

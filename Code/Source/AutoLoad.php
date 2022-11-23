@@ -57,9 +57,11 @@ if (! function_exists('positionOfCondition')) {
     }
 }
 
-function getValueOfCondition($key)
-{
-    return array_values(CONDITIONALS)[$key] ?? null;
+if (! function_exists('getValueOfCondition')) {
+    function getValueOfCondition($key)
+    {
+        return array_values(CONDITIONALS)[$key] ?? null;
+    }
 }
 
 if (! function_exists('getStringColumn')) {
@@ -78,4 +80,14 @@ if (! function_exists('getStringColumn')) {
         return implode(',', $arr);
     }
 
+}
+
+if (! function_exists('writeData')) {
+    function writeData($result)
+    {
+        $fp = fopen('result.txt', 'w');
+        foreach ($result as $row) {
+            fwrite($fp, $row. "\n");
+        }
+    }
 }

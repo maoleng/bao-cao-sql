@@ -13,8 +13,7 @@ const CONDITIONALS = [
 if (! empty($_FILES)) {
     $records = getRecords($_FILES['file']['tmp_name']);
     $pos = positionOfCondition($records);
-    array_shift($records);
-
+    $str_column = array_shift($records);
     $result = [];
     foreach ($records as $row => $record) {
         $fields = explode(',', $record);
@@ -28,7 +27,10 @@ if (! empty($_FILES)) {
             $result[] = $record;
         }
     }
-    dd($result);
+    array_unshift($result, $str_column);
+
+    writeData($result);
+    dd('success');
 
 }
 

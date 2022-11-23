@@ -1,0 +1,2 @@
+id,__name,__student_card_id,__password,__role,_information_id
+7,Shanny Smitham,42101964,$2y$10$xl9U7eqCieBjSdGh/hn44.fHGrvUifZVybb.vshzd.joKRujyK2KC,0,7

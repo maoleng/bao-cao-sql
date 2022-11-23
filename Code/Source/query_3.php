@@ -36,5 +36,7 @@ if (! empty($_FILES)) {
         }
         $result[] = $result_row;
     }
-    dd($result);
+
+    writeData($result);
+    dd('success');
 }

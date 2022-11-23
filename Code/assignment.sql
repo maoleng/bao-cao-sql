@@ -37,7 +37,6 @@ create table form(
 	id int identity PRIMARY KEY,
 	title nvarchar(250),
 	content text,
-	role int,
 	created_at datetime,
 	student_id int not null,
 	foreign key (student_id) references student(id),

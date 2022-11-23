@@ -8,6 +8,7 @@
 require 'AutoLoad.php';
 const CONDITIONALS = [
     'id' => '1',
+    'student_id' => '1',
 ];
 
 if (! empty($_FILES)) {

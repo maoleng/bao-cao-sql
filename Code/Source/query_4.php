@@ -40,7 +40,7 @@ if (! empty($_FILES)) {
         }
     }
     array_unshift($last_result, $str_column);
-    
+
     dd($last_result);
 
 }
